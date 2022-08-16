@@ -65,10 +65,12 @@ button.cancel {
   color: royalblue;
 }
 
-
+.icon{
+  flex-shrink: 0;
+}
 .modal, .right, .top{
   display:flex;
-  gap:8px;
+  gap:16px;
 }
 .modal{
   padding:16px;
@@ -78,4 +80,7 @@ button.cancel {
 }
 .top{
   justify-content: space-between;
+}
+.header{
+  font-weight: bold;
 }
